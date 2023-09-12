@@ -1,0 +1,74 @@
+/* Banner.css */
+.image-container {
+    position: relative;
+  }
+  
+  .overlap-image {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Adjust the position and margin values as per your requirement */
+  .overlap-image:nth-child(1) {
+    top: 0;
+    right: 0;
+    margin-top: -50px;
+    margin-right: -50px;
+  }
+  
+  .overlap-image:nth-child(2) {
+    top: 50px;
+    right: 80px;
+    margin-top: -50px;
+    margin-right: -50px;
+  }
+  
+  .overlap-image:nth-child(3) {
+    top: 120px;
+    right: 160px;
+    margin-top: -50px;
+    margin-right: -50px;
+  }
+  
+  .overlap-image:nth-child(4) {
+    top: 200px;
+    right: 230px;
+    margin-top: -50px;
+    margin-right: -50px;
+  }
+  
+  .overlap-image:nth-child(5) {
+    top: 260px;
+    right: 310px;
+    margin-top: -50px;
+    margin-right: -50px;
+  }
+  
+  /* Add more nth-child styles for additional overlapping images */
+  /* ... */
+  /* ... */
+  
+  .overlap-image:hover {
+    transform: translateY(-10px);
+  }
+
+  @media (max-width: 767px) {
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      
+      
+    }
+  
+    .overlap-image {
+      margin: 2px;
+      position: static;
+      
+    }
+  }

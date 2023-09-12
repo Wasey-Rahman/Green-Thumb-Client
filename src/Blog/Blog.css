@@ -1,0 +1,41 @@
+
+
+/* Container for each video and its title */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the video player */
+  .video-container iframe {
+    width: 100%;
+    max-width: 560px; /* Adjust this value as needed to control the video's width */
+    height: 315px; /* Adjust this value as needed to control the video's height */
+    border: none;
+    border-radius: 8px;
+  }
+  
+  /* Style the video title */
+  .video-container h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Center the video list */
+  .grid {
+    justify-content: center;
+  }
+  
+  /* Additional styling for the main title */
+  h1 {
+    color: black;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,10 @@
+
+.plant-image {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Scale up the image on hover */
+  .plant-image:hover {
+    transform: scale(1.1);
+  }
+  
